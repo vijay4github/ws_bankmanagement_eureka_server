@@ -1,0 +1,12 @@
+server:
+  port: 8060
+spring:
+  application:
+    name: naming-server
+  boot:
+    admin:
+      context-path: /admin
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
